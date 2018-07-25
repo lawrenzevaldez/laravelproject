@@ -24,5 +24,3 @@ Route::get('/admin/dashboard', 'AdminController@index');
 Route::get('/organizer/dashboard', 'OrganizerController@index');
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('/organizer', 'OrganizerController@home');

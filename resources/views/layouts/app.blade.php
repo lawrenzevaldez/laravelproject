@@ -45,7 +45,7 @@
                         @guest
                             <li><a href="{{ route('login') }}">Login</a></li>
                             <li><a href="{{ route('register') }}">Register</a></li>
-                            <li><a href="{{ route('organizer') }}">Organizers</a></li>
+                            <li><a href="{{ route('organizers') }}"><button class="btn btn-success btn-xs">Organizers</button></a></li>
                         @else
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true" v-pre>
