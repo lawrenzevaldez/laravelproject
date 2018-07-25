@@ -10,4 +10,9 @@ class OrganizerController extends Controller
     {
         return view('organizer.index');
     }
+
+    public function home()
+    {
+        return view('organizer.home');
+    }
 }
